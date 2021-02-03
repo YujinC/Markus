@@ -17,7 +17,7 @@ export class ModalMarkus {
         // This is a hard-coded constant to avoid trampling on
         // z-index values set by browser extensions. See issue #3212.
         'zIndex': function () {
-          return 100;
+          return 99;
         }
       });
     this.$elem.find('.make_div_clickable, [type=reset]').click(() => {
